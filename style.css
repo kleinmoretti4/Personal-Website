@@ -1,0 +1,290 @@
+body{
+  background-image:url("Actual Files/WEBP/06_paper_texture.webp");
+  background-attachment: scroll;
+  background-size: 150%;
+  color: black;
+  font-family: "Bitcount Single";
+  font-style: italic;
+  overflow-x:hidden;
+}
+
+h1, h2{
+  font-weight:500 ;
+  display: inline;
+}
+
+h1 {
+  font-size: 40px;
+}
+
+#master{
+  max-width:1440px;
+  position:relative;
+  display:inline-grid;
+  grid-template-columns: min-content min-content;
+  grid-template-rows: min-content min-content;
+  padding: 1%;
+}
+
+#name{
+  align-self:flex-start;
+  grid-column: 1;
+  grid-row: 1;
+  position:relative;
+}
+
+#moe{
+  display:block;
+  width: 30vw;
+  height:auto;
+  position:relative;
+  top:60px; 
+}
+
+#rotimi{
+  display:block;
+  width: 45vw;
+  height: auto;
+  margin-bottom: 30px;
+  position:relative;
+  z-index: 3;
+}
+
+
+#about-me{
+  grid-column: 1;
+  grid-row: 2;
+  align-items:flex-start;
+  font-size:35px;
+}
+
+#about-me-box{
+  height:max-content;
+  width:auto;
+  max-width: 470px;
+  border-radius: 10px;
+  padding:30px;
+  margin: 10px;
+  margin-top: 0px;
+  background-image: url("Actual Files/WEBP/about-me-box.webp");
+  background-size: 100vw;
+  background-position: center;
+  font-size: 30px;
+  font-weight: 450;
+}
+
+#folders{
+  width:max-content;
+  position:relative;
+  grid-column: 2;
+  grid-row: 2;
+  z-index: 5;
+  right:130px;
+}
+
+#contact{
+  display:block;
+  padding:auto;
+  margin:auto;
+}
+
+#music{
+  grid-column: 2;
+  grid-row: 1;
+  display: grid;
+  position:relative;
+  z-index: 0;
+}
+
+#record_text{
+  position:absolute;
+  font-size: 46px; 
+  color: #F0F8FF;
+  z-index:10;
+  left:400px;
+  top: 60px;
+}
+
+#record{
+  position:absolute;
+  height:auto;
+  width:823.2px;
+  left:-50px;
+  top: 150px;
+  animation: rotate 20s linear infinite
+  
+}
+
+@keyframes rotate{
+  from {rotate:0deg;}
+  to {rotate:360deg;}
+}
+
+#projects, #blog, #cv, #contact{
+  top:0;
+  transition: top 500ms ease;
+}
+
+.tab{
+  border-radius: 12px 12px 0 0;
+  height: fit-content;
+  position:relative;
+  margin-top: -220px;
+}
+
+.flpos{
+  display:grid;
+  position:relative;
+  z-index: 10;
+}
+
+.top{
+  align-items: end;
+  position: relative;
+  left: 70px;
+}
+
+.bottom{
+  position:relative;
+}
+
+.textin{
+  position:absolute;
+  z-index:10;
+  left:100px;
+  top:-10px;
+}
+
+.contact_icon{
+  position:absolute;
+  z-index:1;
+  display:inline-grid;
+  left:620px;
+  top:180px;
+  grid-template-columns: repeat(4, 60px);
+  height:auto;
+  width:max-content;
+}
+
+.contact_icon img{
+  width:4vw;
+  height:auto;
+  padding:10%;
+}
+
+@media (hover: hover){
+  #projects:hover, #blog:hover, #cv:hover{
+    top:-23px;
+  }
+
+  #rotimi:hover{
+  width:46vw;
+  }
+
+  #moe:hover{
+  width:31vw;
+  z-index: 4;
+  }
+
+  #about-me-box:hover{
+  box-shadow: 5px -5px 10px rgba(0,0,0,0.5);
+  }
+
+  #contact:hover{
+  top:-120px;
+  }
+
+  .contact_icon:hover{
+  z-index: 10;
+  }
+
+}
+
+@media(hover:none){
+  #contact.open{
+  top:-12vw;
+  }
+}
+
+@media only screen and (max-width: 800px){
+  body{
+    background-size: cover;
+  }
+
+  #master{
+  display:flex;
+  flex-direction:column;
+  width:100%;
+  box-sizing: border-box;
+  padding: 4vw;
+}
+
+#moe{
+  width: 65vw;
+  top:20px; 
+}
+
+#rotimi{
+  width: 90vw;
+  margin-bottom: 10px;
+}
+
+#about-me{
+  font-size:20px;
+  font-weight: 500;
+  padding-top: 5%;
+}
+
+#about-me-box{
+  padding:2%;
+  margin: 2%;
+  margin-top: 1%;
+  background-size: 250vw;
+  font-size: 24px;
+  max-width: 99%;
+}
+
+#folders{
+  right:0;
+  width:100%;
+  padding-top: 10%;
+  box-sizing: border-box;
+}
+
+#record_text{
+  font-size: 40px; 
+  color: #F0F8FF;
+  z-index:10;
+  left:2%;
+  top: 2%;
+}
+
+#record{
+  height:auto;
+  width:150vw;
+  left:20%;
+  top: 2%;
+}
+
+#music{
+  display: grid;
+  position:relative;
+  z-index: 0;
+  height: min-content;
+  width:min-content;
+}
+
+.contact_icon{
+  left: 22%;
+  top:32%;
+  grid-template-columns: repeat(4, 60px);
+  height:auto;
+  width:max-content;
+}
+
+.contact_icon img{
+  width:80%;
+  height:auto;
+  padding:0.5%;
+}
+}
