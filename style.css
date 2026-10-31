@@ -8,6 +8,11 @@ body{
   overflow-x:hidden;
 }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%;
+}
+
 h1, h2{
   font-weight:500 ;
   display: inline;
@@ -270,8 +275,8 @@ h1 {
   display: grid;
   position:relative;
   z-index: 0;
-  height: min-content;
-  width:min-content;
+  height: 100%;
+  width:100vw;
 }
 
 .contact_icon{
