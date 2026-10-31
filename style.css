@@ -275,7 +275,7 @@ h1 {
   position:relative;
   z-index: 0;
   height: 100%;
-  width:100vw;
+  width:100%;
 }
 
 .contact_icon{
