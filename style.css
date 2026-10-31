@@ -275,8 +275,8 @@ h1 {
   position:relative;
   height: 100%;
   width:100vw;
-  overflow: hidden;
-  contain:pain;
+  /* overflow: hidden;
+  contain:pain; */
 }
 
 .contact_icon{
