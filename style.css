@@ -8,10 +8,6 @@ body{
   overflow-x:hidden;
 }
 
-html, body {
-  overflow-x: hidden;
-}
-
 h1, h2{
   font-weight:500 ;
   display: inline;
@@ -213,6 +209,10 @@ h1 {
 @media only screen and (max-width: 800px){
   body{
     background-size: cover;
+  }
+
+  html, body {
+  overflow-x: hidden;
   }
 
   #master{
