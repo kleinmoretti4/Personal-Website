@@ -1,6 +1,6 @@
 # Personal-Website
 This is my personal website I made as a portfolio for my projects and just to build something to get me out of my coding slump. I am very proud of how much personality the art and UI have. Although, the features and pages are incomplete, I will work on them outside of star dance. I already have so many ideas for future additions like a media page to showcase all my favourite media like web novels, books, shows, mangas, movies e.t.c.
-<img width="1841" height="923" alt="image" src="https://github.com/user-attachments/assets/8e46256c-f1e9-4117-8b05-8bbbcc0fc084" />
+<img width="1920" height="1080" alt="Screenshot 2026-11-01 124608" src="https://github.com/user-attachments/assets/f2a2ab93-53c6-4f50-8808-d2e8bba3c6e0" />
 
 ## Check it out yourself
 https://personalwebsite-opal-zeta.vercel.app/
